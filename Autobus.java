@@ -18,7 +18,23 @@ public class Autobus
         setAnhanger(false);
     }
 
+        
+    public String getKennzeichen()
+    {
+        return kennzeichen;
+    }
     
+    public int getSitzplatze()
+    {
+        return sitzplatze;
+    }
+    
+    public boolean getAnhanger()
+    {
+        return anhanger;
+    }
+    
+
     
     
     
